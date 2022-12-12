@@ -1,5 +1,5 @@
-# FGA0158-Grupo-08-T05
-Repositório do Grupo 08 da matéria Orientação a Objetos, Turma 05.
+# FGA0158-Grupo-09-T05
+Repositório do Grupo 09 da matéria Orientação a Objetos, Turma 05.
 
 Professores da Disciplina:
 Luiz Carlos Miyadaira, Rejane Maria Figuereido e Elaine Venson.
