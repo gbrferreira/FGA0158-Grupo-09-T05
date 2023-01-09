@@ -11,7 +11,8 @@ public class Usuario {
     private int acesso;
 
     public void pedirReserva(){
-        // a fazer
+        // setReserva
+        // 
     }
 
     public void calcularHistorico(){

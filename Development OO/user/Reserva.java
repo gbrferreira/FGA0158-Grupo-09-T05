@@ -5,8 +5,8 @@ public class Reserva {
 
     private String descricao;
     private int numero;
-    private Date horario;
-    private Date horarioMaisFreq;
+    private String horario;
+    private String horarioMaisFreq;
 
     public int calculaHorarioMaisFrequente(){
         // a fazer
@@ -25,16 +25,16 @@ public class Reserva {
     public void setNumero(int numero) {
         this.numero = numero;
     }
-    public Date getHorario() {
+    public String getHorario() {
         return horario;
     }
-    public void setHorario(Date horario) {
+    public void setHorario(String horario) {
         this.horario = horario;
     }
-    public Date getHorarioMaisFreq() {
+    public String getHorarioMaisFreq() {
         return horarioMaisFreq;
     }
-    public void setHorarioMaisFreq(Date horarioMaisFreq) {
+    public void setHorarioMaisFreq(String horarioMaisFreq) {
         this.horarioMaisFreq = horarioMaisFreq;
     }
 }
