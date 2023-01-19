@@ -1,5 +1,4 @@
 package user;
-
 public class Usuario {
 
     private int matricula;
@@ -11,12 +10,14 @@ public class Usuario {
     private int acesso;
 
     public void pedirReserva(){
-        // setReserva
-        // 
+
     }
 
     public void calcularHistorico(){
-        // a fazer
+        //system.out.println("Histórico do usuário: \n");
+        //system.out.println(contReserva + "reservas já foram solicitadas pelo usuário. \n");
+        //system.out.println(contReservaAceita + "reservas solicitadas pelo usuário foram aceitas. \n");
+        //system.out.println("contReservaNegada" + "reservas solicitadas pelo usuário foram negadas. \n");
     }
     
     public int getMatricula() {

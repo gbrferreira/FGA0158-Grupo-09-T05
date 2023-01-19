@@ -1,5 +1,5 @@
 package user;
-import java.util.*;
+
 
 public class Reserva {
 
@@ -7,11 +7,13 @@ public class Reserva {
     private int numero;
     private String horario;
     private String horarioMaisFreq;
+    private int qtdPessoas;
 
-    public int calculaHorarioMaisFrequente(){
+    public int calcHoraFreq(){
         // a fazer
         return 10;
     }
+    
 
     public String getDescricao() {
         return descricao;
@@ -36,5 +38,11 @@ public class Reserva {
     }
     public void setHorarioMaisFreq(String horarioMaisFreq) {
         this.horarioMaisFreq = horarioMaisFreq;
+    }
+    public void setQtdPessoas(int qtdPessoas){
+        this.qtdPessoas = qtdPessoas;
+    }
+    public int getQtdPessoas (int qtdPessoas){
+        return qtdPessoas;
     }
 }
