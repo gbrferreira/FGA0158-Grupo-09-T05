@@ -1,4 +1,4 @@
-package user;
+package src;
 public class Usuario {
 
     private int matricula;
