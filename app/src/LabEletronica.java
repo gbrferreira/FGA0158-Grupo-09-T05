@@ -4,6 +4,10 @@ public class LabEletronica extends laboratorio {
     
     private int qtdKits;
 
+    public LabEletronica(int capacidade, String nome) {
+        super(capacidade, nome);
+    }
+
     public int getQtdKits() {
         return qtdKits;
     }
