@@ -1,14 +1,27 @@
 package src;
 
+import javax.swing.plaf.TreeUI;
+
 public class Sala {
     
     private int capacidade;
     private String nome;
     private int frequenciaReserva;
+    private int qtdPessoas;
 
-    public int calcularFrequencia(){
-        //a fazer
-        return 5;
+
+public static void main(String[] args) {
+    calcCompatibilidadeDePessos();
+}
+
+    public void calcularFrequencia(){
+        
+    }
+
+    public void calcCompatibilidadeDePessos(){
+        if (qtdPessoas > capacidade){
+            System.out.println("A sala não tem espaço suficiente para " + qtdPessoas + "pessoas.");
+        }
     }
     
     public int getCapacidade() {
@@ -28,6 +41,12 @@ public class Sala {
     }
     public void setFrequenciaReserva(int frequenciaReserva) {
         this.frequenciaReserva = frequenciaReserva;
+    }
+    public int getQtdPessoas() {
+        return qtdPessoas;
+    }
+    public void setQtdPessoas(int qtdPessoas) {
+        this.qtdPessoas = qtdPessoas;
     }
 
 }
