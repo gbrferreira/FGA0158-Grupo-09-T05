@@ -4,8 +4,9 @@ public class LabInformatica extends laboratorio{
     
     private int qtdComputadores;
 
-    public LabInformatica(int capacidade, String nome) {
-        super(capacidade, nome);
+    public LabInformatica(int capacidade, String nome, int qtdComputadores,String tipo) {
+        super(capacidade, nome,tipo);
+        this.qtdComputadores=qtdComputadores;
     }
 
     public int getQtdComputadores() {
