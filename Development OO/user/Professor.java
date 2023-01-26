@@ -8,9 +8,10 @@ public class Professor extends Usuario{
     private String sala;
     private Date horarioAtendimento;
 
-    public int calcAtendimentoRestante(){
-        // a fazer
-        return 5;
+    public static int calcAtendimentoRestante(int qtdAtendimento2){
+        int qtdAtendimento= Reserva.qtdAtendimento;
+        return qtdAtendimento;
+        
     }
 
     
