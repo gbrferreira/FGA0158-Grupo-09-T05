@@ -1,8 +1,10 @@
 package src;
 import src.Sala;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String []args){
-
+        Scanner tec=new Scanner(System.in);
         //criando salas UAC
         Sala salaI1= new Sala(40,"I1");
         Sala salaI2= new Sala(60,"I2");
@@ -54,10 +56,40 @@ public class Main {
         //Criando Predios
         Predio UAC=new Predio(22,"Unidade Academica ");
         Predio UED=new Predio(11,"Unidade de Ensino e Docência");
-        Predio LDTEA=new Predio(3,"Laboratorios");
+        Predio LDTEA=new Predio(3,"Laboratorio de Desenvolvimento de Transportes e Energias Alternativas");
+
+        //Contato com o usuario
+        System.out.println("Olá, seja bem vindo ao FGA Rooms, selecione a opção que deseja:");
+        System.out.println("1- Fazer reserva");
+        System.out.println("2- Visualizar reservas");
+        System.out.println("3- Editar reserva");
+        System.out.println("4- Excluir reserva");
+        int escolha= tec.nextInt();
+        Switch(escolha);
+
 
 
 
     }
+
+    private static void Switch(int escolha) {
+            switch(escolha) {
+                case 1:
+                    System.out.println("Vamos fazer uma reserva");
+                    break;
+                case 2:
+                    System.out.println("Mostrando reservas");
+                    break;
+                case 3:
+                    System.out.println("Vamos editar a reserva");
+                    break;
+                case 4:
+                    System.out.println("Vamos excluir uma reserva");
+                    break;
+                default:
+                    System.out.println("Invalido");
+            }
+    }
+
 
 }
