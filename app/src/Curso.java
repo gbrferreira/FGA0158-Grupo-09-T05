@@ -4,6 +4,14 @@ public class Curso {
 
     private String nome;
     private int qtdAlunos;
+    private static int cont;
+
+    //construtor
+    public Curso(String nome,int qtdAlunos){
+        this.nome=nome;
+        this.qtdAlunos=qtdAlunos;
+        cont++;
+    }
 
     public int calcularQtdAlunos(){
         //a fazer

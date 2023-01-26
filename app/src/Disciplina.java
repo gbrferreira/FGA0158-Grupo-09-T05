@@ -4,6 +4,14 @@ public class Disciplina {
     
     private String nome;
     private int codigo;
+    private static int cont;
+
+    //construtor
+    public Disciplina(String nome,int codigo){
+        this.nome=nome;
+        this.codigo=codigo;
+        cont++;
+    }
     
     public String getNome() {
         return nome;

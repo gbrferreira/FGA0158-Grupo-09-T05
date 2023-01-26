@@ -2,11 +2,21 @@ package src;
 import java.util.*;
 
 public class Professor extends Usuario{
-    
+    private static int cont;
     private String formacao;
     private String projetoExtensao;
     private String sala;
     private Date horarioAtendimento;
+
+    public Professor(String formacao,String projetoExtensao,String sala,Date horarioAtendimento,int matricula, String apelido, String senha, String nome, String email, String id, int acesso) {
+        super(matricula, apelido, senha, nome, email, id, acesso);
+        this.formacao=formacao;
+        this.projetoExtensao=projetoExtensao;
+        this.sala=sala;
+        this.horarioAtendimento=horarioAtendimento;
+        cont++;
+    }
+
 
     public int calcAtendimentoRestante(){
         // a fazer

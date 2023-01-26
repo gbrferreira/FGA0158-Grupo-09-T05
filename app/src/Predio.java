@@ -6,11 +6,13 @@ public class Predio {
     private int qtdSalas;
     //private Date horario;
     private String nome;
+    private static int cont;
 
     //construtor
     public Predio(int qtdSalas, String nome){
         this.nome=nome;
         this.qtdSalas=qtdSalas;
+        cont++;
     }
     
     public int getQtdSalas() {

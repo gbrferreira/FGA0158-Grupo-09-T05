@@ -5,11 +5,13 @@ public class Sala {
     private int capacidade;
     private String nome;
     private int frequenciaReserva;
+    private static int cont;
 
     //construtor
     public Sala(int capacidade, String nome){ //construtor para criar objetos mais fácil na main
        this.nome=nome;
        this.capacidade=capacidade;
+       cont++;
     }
 
     //getters and setters

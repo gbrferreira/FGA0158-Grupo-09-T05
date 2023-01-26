@@ -1,6 +1,6 @@
 package src;
 public class Usuario {
-
+    private static int cont;
     private int matricula;
     private String apelido;
     private String senha;
@@ -8,6 +8,18 @@ public class Usuario {
     private String email;
     private String id;
     private int acesso;
+
+    //construtores
+    public Usuario(int matricula,String apelido,String senha,String nome,String email,String id,int acesso){
+        this.matricula=matricula;
+        this.apelido=apelido;
+        this.senha=senha;
+        this.nome=nome;
+        this.email=email;
+        this.id=id;
+        this.acesso=acesso;
+        cont++;
+    }
 
     public void pedirReserva(){
 

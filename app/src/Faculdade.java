@@ -4,6 +4,14 @@ public class Faculdade {
     
     private String nome;
     private String endereco;
+    private static int cont;
+
+    //construtor
+    public Faculdade(String nome, String endereco){
+        this.nome=nome;
+        this.endereco=endereco;
+        cont++;
+    }
     
     public String getNome() {
         return nome;

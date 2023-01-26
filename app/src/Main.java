@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String []args){
+
+
         Scanner tec=new Scanner(System.in);
         //criando salas UAC
         Sala salaI1= new Sala(40,"I1");
@@ -66,10 +68,6 @@ public class Main {
         System.out.println("4- Excluir reserva");
         int escolha= tec.nextInt();
         Switch(escolha);
-
-
-
-
     }
 
     private static void Switch(int escolha) {
