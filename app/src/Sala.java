@@ -1,22 +1,11 @@
 package src;
 
-import javax.swing.plaf.TreeUI;
-
 public class Sala {
     
     private int capacidade;
     private String nome;
     private int frequenciaReserva;
     private int qtdPessoas;
-
-
-public static void main(String[] args) {
-    calcCompatibilidadeDePessos();
-}
-
-    public void calcularFrequencia(){
-        
-    }
 
     public void calcCompatibilidadeDePessos(){
         if (qtdPessoas > capacidade){

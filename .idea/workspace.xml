@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8b077a7-3777-469d-93b5-1172c2c020c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atendimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Coordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Disciplina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Faculdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Faculdade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/LabEletronica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabEletronica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/LabInformatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabInformatica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/ListaReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaReserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Predio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Predio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Secretario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secretario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Turma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Development OO/user/laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Sala.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Sala.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +32,18 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pedro Miguel/Projetos/OO/FGA0158-Grupo-09-T05&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/guilh/Documents/codigos/codigosJava/testes java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="user" />
@@ -95,10 +77,22 @@
       <updated>1673093132851</updated>
       <workItem from="1673093134379" duration="2818000" />
       <workItem from="1673099085806" duration="217000" />
+      <workItem from="1674866511220" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

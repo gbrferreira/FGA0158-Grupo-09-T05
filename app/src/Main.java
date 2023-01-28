@@ -2,7 +2,7 @@ package src;
 public class Main {
     public static void main(String []args){
 
-
+        new Interface();
         //criando salas
         Sala salaI1= new Sala();
             String nomei1= salaI1.getNome();
