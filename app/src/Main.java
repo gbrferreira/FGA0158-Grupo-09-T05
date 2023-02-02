@@ -2,6 +2,7 @@ package src;
 import src.Sala;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String []args){
@@ -35,6 +36,8 @@ public class Main {
         salaUAC.add(new Sala(130,"S9"));
         salaUAC.add(new Sala(25,"Sala Multiuso"));
         salaUAC.add(new Sala(240,"Auditorio"));
+
+
 
         //araylist LDTEA
         ArrayList<Sala> salaLDTEA=new ArrayList<Sala>();
