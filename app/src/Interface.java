@@ -29,7 +29,7 @@ public class Interface extends JFrame {
         title.setFont(new Font("Arial", Font.BOLD, 40));
         title.setHorizontalAlignment(JLabel.CENTER);
         
-        //botão de cadastro, login, visualizar salas, visualizar reservas, pedir reservas
+        //botão de cadastro, login, nova reserva
         JPanel btnPanel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
@@ -46,23 +46,11 @@ public class Interface extends JFrame {
         gbc.gridy = 2;
         btnPanel.add(btnLogin, gbc);
 
-        JButton btnSalas = new JButton("Visualizar salas");
-        btnSalas.setPreferredSize(new Dimension(400, 80));
-        btnSalas.setFont(new Font("Arial", Font.BOLD, 40));
+        JButton btnReserva = new JButton("Nova reserva");
+        btnReserva.setPreferredSize(new Dimension(400, 80));
+        btnReserva.setFont(new Font("Arial", Font.BOLD, 40));
         gbc.gridy = 3;
-        btnPanel.add(btnSalas, gbc);
-
-        JButton btnVerReservas = new JButton("Visualizar reservas");
-        btnVerReservas.setPreferredSize(new Dimension(400, 80));
-        btnVerReservas.setFont(new Font("Arial", Font.BOLD, 40));
-        gbc.gridy = 4;
-        btnPanel.add(btnVerReservas, gbc);
-
-        JButton btnPedirReserva = new JButton("Nova reserva");
-        btnPedirReserva.setPreferredSize(new Dimension(400, 80));
-        btnPedirReserva.setFont(new Font("Arial", Font.BOLD, 40));
-        gbc.gridy = 5;
-        btnPanel.add(btnPedirReserva, gbc);
+        btnPanel.add(btnReserva, gbc);
 
         add(btnPanel);
         setVisible(true);
@@ -175,6 +163,73 @@ public class Interface extends JFrame {
             });
 
         }
+    });             ////// PARTE NOVA E COM POSSÌVEIS ERROS !!!!!!!!!!!!!!!!!!
+
+        // quando clica em "reservar sala'" 
+        btnReserva.addActionListener(new ActionListener(){
+        @Override
+        public void actionPerformed(ActionEvent e){
+            JFrame reserva = new JFrame();
+            reserva.setTitle("Reservar uma sala");
+            reserva.setSize(800, 800);
+            reserva.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+            JPanel reservaPanel = new JPanel();
+            reserva.add(reservaPanel);
+
+            JButton sala1 = new JButton("sala1");
+            sala1.setPreferredSize(new Dimension(150, 50));
+            sala1.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 1;
+            gbc.gridx = 1;
+            reservaPanel.add(sala1, gbc);
+
+            JButton sala2 = new JButton("sala2");
+            sala2.setPreferredSize(new Dimension(150, 50));
+            sala2.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 1;
+            gbc.gridx = 2;
+            reservaPanel.add(sala2, gbc);
+
+            JButton sala3 = new JButton("sala3");
+            sala3.setPreferredSize(new Dimension(150, 50));
+            sala3.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 1;
+            gbc.gridx = 2;
+            reservaPanel.add(sala3, gbc);
+
+            JButton sala4 = new JButton("sala4");
+            sala4.setPreferredSize(new Dimension(150, 50));
+            sala4.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 2;
+            gbc.gridx = 1;
+            reservaPanel.add(sala4, gbc);
+
+            JButton sala5 = new JButton("sala5");
+            sala5.setPreferredSize(new Dimension(150, 50));
+            sala5.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 2;
+            gbc.gridx = 2;
+            reservaPanel.add(sala5, gbc);
+
+            JButton sala6 = new JButton("sala6");
+            sala6.setPreferredSize(new Dimension(150, 50));
+            sala6.setFont(new Font("Arial", Font.BOLD, 20));
+            gbc.gridy = 2;
+            gbc.gridx = 3;
+            reservaPanel.add(sala6, gbc);
+
+        
+
+            reserva.add(reservaPanel);
+            reserva.pack();
+            reserva.setVisible(true);
+
+            
+        }
     });
+
+
+
 }
 }
