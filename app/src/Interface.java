@@ -29,7 +29,7 @@ public class Interface extends JFrame {
         title.setFont(new Font("Arial", Font.BOLD, 40));
         title.setHorizontalAlignment(JLabel.CENTER);
         
-        //botão de cadastro, login e visualizar salas
+        //botão de cadastro, login, visualizar salas, visualizar reservas, pedir reservas
         JPanel btnPanel = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
@@ -51,6 +51,18 @@ public class Interface extends JFrame {
         btnSalas.setFont(new Font("Arial", Font.BOLD, 40));
         gbc.gridy = 3;
         btnPanel.add(btnSalas, gbc);
+
+        JButton btnVerReservas = new JButton("Visualizar reservas");
+        btnVerReservas.setPreferredSize(new Dimension(400, 80));
+        btnVerReservas.setFont(new Font("Arial", Font.BOLD, 40));
+        gbc.gridy = 4;
+        btnPanel.add(btnVerReservas, gbc);
+
+        JButton btnPedirReserva = new JButton("Nova reserva");
+        btnPedirReserva.setPreferredSize(new Dimension(400, 80));
+        btnPedirReserva.setFont(new Font("Arial", Font.BOLD, 40));
+        gbc.gridy = 5;
+        btnPanel.add(btnPedirReserva, gbc);
 
         add(btnPanel);
         setVisible(true);
